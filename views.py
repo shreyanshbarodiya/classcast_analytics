@@ -1,4 +1,7 @@
 from django.http import HttpResponse
+import models
+from django.http import JsonResponse
+from django.core import serializers
 
 def hello(request):
    text = """<h1>welcome to my app !</h1>"""
