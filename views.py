@@ -1,5 +1,5 @@
 from django.http import HttpResponse
-import models
+import classcast.classcast_test_submissions.models as models
 from django.http import JsonResponse
 from django.core import serializers
 
